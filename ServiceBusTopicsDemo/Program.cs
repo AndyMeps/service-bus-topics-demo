@@ -8,11 +8,11 @@ namespace ServiceBusTopicsDemo
         static void Main(string[] args)
         {
             // SET VALUES HERE:
-            var endpoint = "sb://amtest.servicebus.windows.net/";
-            var topicName = "topic1";
-            var accessKeyName = "RootManageSharedAccessKey";
-            var accessKey = "jTnp29P9sQ5KMyvqCCRpMt5CkBalrLtRMYNhh5sik7Q=";
-            var subscription = "subscription1";
+            var endpoint = "<endpoint>";
+            var topicName = "<topicName>";
+            var accessKeyName = "RootManageSharedAccessKey"; // this most likely can stay as-is.
+            var accessKey = "<accessKey>";
+            var subscription = "<subscription>";
             // DONE
             
             Console.WriteLine("Choose an option:");
